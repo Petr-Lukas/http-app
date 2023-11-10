@@ -1,0 +1,10 @@
+<div class="input-group mb-3">
+    <input type="text" #input class="form-control" (keyup.enter)="postData(input)" aria-label="Username" aria-describedby="basic-addon1">
+  </div>
+
+<ul class="list-group">
+<li *ngFor="let post of posts;index as i"class="list-group-item">{{post.title}} {{post?.isRed}}
+ <button class="btn btn-primary btn-sm" (click)="updateData(post,i)">update</button>  
+ <button class="btn btn-primary btn-sm" (click)="deleteData(post.id,i)">delete</button>   
+</li>
+</ul>

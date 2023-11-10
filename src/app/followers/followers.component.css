@@ -1,0 +1,15 @@
+img {border-radius: 50%;
+width:10%;
+margin-top: 20px;
+/*padding-right: 50px;*/
+margin-right: 50px;
+}
+
+.middle {
+    padding-top: 50px;
+   /* align-content: center;*/
+    padding-left: 100px;
+}
+li {
+    vertical-align: middle;
+}
